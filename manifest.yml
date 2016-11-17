@@ -1,0 +1,10 @@
+---
+applications:
+- path: target/StockApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jazzbot-stock-app-test
+  host: jazzbot-stock-app-test
+  disk_quota: 1024M
+  buildpack: liberty-for-java
